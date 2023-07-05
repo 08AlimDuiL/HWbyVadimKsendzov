@@ -2,6 +2,8 @@
 
 ### **HW_1**
 
+[Ответы ](/SolutionsForHomeWork/git/git.md)
+
 *Предусловия:*
 
   * для Windows должен быть установлен - GitBash;
