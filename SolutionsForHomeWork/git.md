@@ -69,36 +69,95 @@
   + нажать **i** (режим редактирования)
   + 
     
-  ```{```
+  ```json
+{
+"name": "Liudmila",
+"age": "birthdate - 1980",
+"pets":"my husband",
+"mySalary": "NDA"
+}
+```
 
-```"name": "Liudmila",```
-```"age": "43",```
-```"pets":"none",```
-```"mySalary": "NDA"```
+  + Esc -> **:wq**
 
-```}```
+**8.** Отправить изменения на внешний репозиторий:
 
++ ```git status```
 
++ ``` git add new.json```
 
-**8.** Отправить изменения на внешний репозиторий;
++ ```git commit -m "Added information about myself in new.json file"```
 
-  **9.** Создать файл preferences.json;
++ ```git push```
 
-  **10.**. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON;
+**9.** Создать файл preferences.json;
 
-  **11.** Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON;
+   ```touch preferences.json```
 
-  **12.** Отправить сразу 2 файла на внешний репозиторий;
+**10.**. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON:
 
-  **13.** На веб интерфейсе создать файл bug_report.json;
+  + ```vim preferences.json```
+  +  нажать **i** (режим редактирования)
+  + 
+    
+  ```json
+{
+  "favorite movie": "Three nuts for cinderella",
+  "favorite TV series": "True Blood",
+  "favorite food":"echpochmak",
+  "favorite season": "indian summer",
+  "the country you would like to visit": "Mongolia"
+}
+```
 
-  **14.** Сделать Commit changes (сохранить) изменения на веб интерфейсе;
+  + Esc -> **:wq**
 
-  **15.** На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON;
+**11.** Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON:
 
-  **16.** Сделать Commit changes (сохранить) изменения на веб интерфейсе;
+  + ```cat >> skills.json```
+  +
+  ```json
+{
+        "hardSkills":   [
+                                "SQL/ Postgres, MySQL, Redis",
+                                "Terminal Linux",
+                                "Git", 
+                                "API/ Postman", 
+                                "Dev Tools", 
+                                "ADB",
+                                "Charle", 
+                                "Fiddler",
+                                "Android Studio", 
+                                "Docker",
+                                "JS",
+                                "Jmeter",
+                                "Software Testing",
+                                "Markdown"
+                        ]
+                      
+}
+```
+  + **Ctrl + D** (выход из режима редактирования и сохранения файла)
+  
+**12.** Отправить сразу 2 файла на внешний репозиторий:
 
-  **17.** Синхронизировать внешний и локальный репозиторий JSON;
++ ```git status```
+
++ ``` git add skills.json preferences.json```
+
++ ```git commit -m "Added two files"```
+
++ ```git push```
+
+**13.** На веб интерфейсе создать файл bug_report.json;
+
+**14.** Сделать Commit changes (сохранить) изменения на веб интерфейсе;
+
+**15.** На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON;
+
+**16.** Сделать Commit changes (сохранить) изменения на веб интерфейсе;
+
+**17.** Синхронизировать внешний и локальный репозиторий JSON;
 
 
 **XML**
