@@ -63,6 +63,121 @@
 **11.** Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON;
 
 **12.** Отправить сразу 2 файла на внешний репозиторий;
+=======
+  ```git clone <repository HTTPS>```
+
+  Например, чтобы склонировать себе на компьютер репозиторий с тасками курса https://github.com/rolling-scopes-school/tasks, необходимо открыть Git Bash и выполнить в нём команду
+
+   ```git clone https://github.com/rolling-scopes-school/tasks```
+
+  Если необходимо склонировать себе на компьютер отдельную ветку репозитория, выполните команду
+
+  ```git clone ссылка на репозиторий -b название ветки```
+
+  **3.** Внутри локального JSON создать файл “new.json”:
+
+   ```touch new.json```
+
+  **4.** Добавить файл под гит;
+
+  ```git add new.json```
+
+  **5.** Закоммитить файл:
+
+  ```git commit -m "Added new.json"```
+
+  **6.** Отправить файл на внешний GitHub репозиторий:
+
+  ```git push```
+  
+  ```git push --set-upstream origin <yourBranch>```
+
+
+  **7.** Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON;
+
+  + ```vim new.json```
+  + нажать **i** (режим редактирования)
+  + 
+    
+  ```json
+{
+"name": "Liudmila",
+"age": "birthdate - 1980",
+"pets":"my husband",
+"mySalary": "NDA"
+}
+```
+
+  + Esc -> **:wq**
+
+**8.** Отправить изменения на внешний репозиторий:
+
++ ```git status```
+
++ ``` git add new.json```
+
++ ```git commit -m "Added information about myself in new.json file"```
+
++ ```git push```
+
+**9.** Создать файл preferences.json;
+
+   ```touch preferences.json```
+
+**10.**. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON:
+
+  + ```vim preferences.json```
+  +  нажать **i** (режим редактирования)
+  + 
+    
+  ```json
+{
+  "favorite movie": "Three nuts for cinderella",
+  "favorite TV series": "True Blood",
+  "favorite food":"echpochmak",
+  "favorite season": "indian summer",
+  "the country you would like to visit": "Mongolia"
+}
+```
+
+  + Esc -> **:wq**
+
+**11.** Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON:
+
+  + ```cat >> skills.json```
+  +
+  ```json
+{
+        "hardSkills":   [
+                                "SQL/ Postgres, MySQL, Redis",
+                                "Terminal Linux",
+                                "Git", 
+                                "API/ Postman", 
+                                "Dev Tools", 
+                                "ADB",
+                                "Charle", 
+                                "Fiddler",
+                                "Android Studio", 
+                                "Docker",
+                                "JS",
+                                "Jmeter",
+                                "Software Testing",
+                                "Markdown"
+                        ]
+                      
+}
+```
+  + **Ctrl + D** (выход из режима редактирования и сохранения файла)
+  
+**12.** Отправить сразу 2 файла на внешний репозиторий:
+
++ ```git status```
+
++ ``` git add skills.json preferences.json```
+
++ ```git commit -m "Added two files"```
+
++ ```git push```
 
 **13.** На веб интерфейсе создать файл bug_report.json;
 
