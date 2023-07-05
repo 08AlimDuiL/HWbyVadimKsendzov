@@ -110,21 +110,21 @@
 
   + Esc -> **:wq**
 
-**8.** Отправить изменения на внешний репозиторий:
+ **8.** Отправить изменения на внешний репозиторий:
 
-+ ```git status```
+  + ```git status```
 
-+ ``` git add new.json```
+  + ``` git add new.json```
 
-+ ```git commit -m "Added information about myself in new.json file"```
+  + ```git commit -m "Added information about myself in new.json file"```
 
-+ ```git push```
+  + ```git push```
 
-**9.** Создать файл preferences.json;
+  **9.** Создать файл preferences.json;
 
    ```touch preferences.json```
 
-**10.**. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON:
+  **10.**. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON:
 
   + ```vim preferences.json```
   +  нажать **i** (режим редактирования)
@@ -146,7 +146,7 @@
 
   + ```cat >> skills.json```
   +
-  ```json
+```json
 {
         "hardSkills":   [
                                 "SQL/ Postgres, MySQL, Redis",
@@ -163,34 +163,52 @@
                                 "Jmeter",
                                 "Software Testing",
                                 "Markdown"
-                        ]
-                      
+                        ]                   
 }
 ```
   + **Ctrl + D** (выход из режима редактирования и сохранения файла)
   
-**12.** Отправить сразу 2 файла на внешний репозиторий:
+  **12.** Отправить сразу 2 файла на внешний репозиторий:
 
-+ ```git status```
+  + ```git status```
 
-+ ``` git add skills.json preferences.json```
+  + ``` git add skills.json preferences.json```
 
-+ ```git commit -m "Added two files"```
+  + ```git commit -m "Added two files"```
 
-+ ```git push```
+  + ```git push```
 
-**13.** На веб интерфейсе создать файл bug_report.json:
+  **13.** На веб интерфейсе создать файл bug_report.json:
 
-+ зайти в свой репозиторий
-+ нажать *Add file*
-+ 
+  + зайти в свой репозиторий
+  + нажать *Add file*
+  + выбрать Create new file
+  + в поле *Name your file...* вписать bug_report.json
 
-**14.** Сделать Commit changes (сохранить) изменения на веб интерфейсе;
+**14.** Сохранить изменения на веб интерфейсе:
 
-**15.** На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON;
+  + нажать *Commit*
+  + во всплывающем окне выбрать *Commit directly to the <ветка> branch*
+  + нажать *Commit changes*
 
-**16.** Сделать Commit changes (сохранить) изменения на веб интерфейсе;
+**15.** На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON:
 
+  + в своей ветке найти файл bug_report.json
+  + нажать на него
+  + нажать на *IconButton* карандаш
+  +  
+```json
+  {
+	"bag1": "какой-то баг №1",
+	"bag2": "какой-то баг №2"
+	}
+```
+
+**16.** Сохранить изменения на веб интерфейсе:
+  + нажать *Commit changes...*
+  + во всплывающем окне выбрать *Commit directly to the <ветка> branch*
+  + нажать *Commit changes*
+  
 **17.** Синхронизировать внешний и локальный репозиторий JSON;
 
 
