@@ -1,6 +1,6 @@
-## **GIT**
+# **GIT**
 
-### **HW_1**
+## **HW_1**
 
 [Станьте гуру в Git](https://www.atlassian.com/ru/git/tutorials)
 
@@ -15,7 +15,7 @@
       + [Видео: регистрация на сервисе GitHub](https://www.youtube.com/watch?v=5DKVktUtH3A)
   * все шаги сценария выполняйте в терминале GitBush, Terminal, в папке под гитом.
 
-**JSON**
+### **JSON**
 
  **1.** Создать внешний репозиторий (папку) c названием JSON(HWbyVadimKsendzov):
 
@@ -181,8 +181,9 @@
   + ```$ git pull```
 **18.** Я перенесла файлы
 
-**XML**
+### **XML**
 
+[XML для чайников](https://msiter.ru/tutorials/uchebnik-xml-dlya-nachinayushchih)
 
  **1.** Создать внешний репозиторий (папку) c названием XML(HWbyVadimKsendzov):
 
@@ -234,16 +235,65 @@
  ```$ git push```
    
  **7.**  Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML:
+
+  + ```$ vim new.xml```
+  + нажать **i** (режим редактирования)
+  + 
+    
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+    <data>
+        <name>Liudmila</name>
+        <age>42</age>
+        <pets>my husband</pets>
+        <mySalary>NDA</mySalary>
+    </data>
+```
+  + Esc -> **:wq**
    
  **8.** Отправить изменения на внешний репозиторий:
+   + ```$ git status```
+
+  + ```$  git add new.xml```
+
+  + ```$ git commit -m "Added information about myself in new.xml file"```
+
+  + ```$ git push```
    
  **9.** Создать файл preferences.xml:
+  ```touch preferences.xml```
    
  **10.** В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML:
-   
+
+  + ```$ preferences.xml```
+  + нажать **i** (режим редактирования)
+  + 
+    
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+    <favorite>
+        <favorite_movie>Three nuts for cinderella</favorite_movie>
+        <favorite_TV_series>True Blood</favorite_TV_series>
+        <favorite_food>Three nuts for cinderella</favorite_food>
+        <favorite_country=you would like to visit>Mongolia</favorite_country>
+    </favorite>
+```
+  + Esc -> **:wq**
+  
  **11.** Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML:
-   
+
+  + ```vim skills.xml```
+  + нажать **i** (режим редактирования)
+  + 
+```xml
+   <?xml version="1.0" encoding="UTF-8"?>
+    <hardSkills>SQL, Terminal Linux,Git, API, Dev Tools,ADB,Charle, Fiddler,Android Studio,Docker, JS, Jmeter,Software Testing, Markdown</hardSkills>
+```
++ Esc -> **:wq**
+ 
  **12.** Сделать коммит в одну строку:
+
+  ```git add . && git commit -m "comment"```
    
  **13.**Отправить сразу 2 файла на внешний репозиторий:
    
@@ -257,7 +307,7 @@
    
  **18.** Синхронизировать внешний и локальный репозиторий XML:
 
- ### **HW_2**
+ ## **HW_2**
 
 **1.** На локальном репозитории сделать ветки для:
 
