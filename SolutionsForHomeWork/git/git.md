@@ -359,7 +359,7 @@
 ```git push origin --all```
 
 **3.** В ветке Bag Reports сделать текстовый документ со структурой баг репорта:
-  
+
   + на ветке ```main``` ➠  ```$ git pull```
   + ```$ git checkout Bug_Reports```
   + ```$ git merge main``` ➠ синхронизировать с ```main```
