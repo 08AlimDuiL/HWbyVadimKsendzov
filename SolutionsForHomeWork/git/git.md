@@ -383,7 +383,7 @@
 
 ```$ git push```
 
-**6.1**Удалить ветку ```Bug_Reports```
+**6.1**Удалить ветку ```Bug_Reports```  из ветки ```main```
 
   ```$ git branch -D Bug_Reports```
 
@@ -413,3 +413,7 @@
 
   + ```$ git checkout main```
   + ```$ git pull```
+  
+**10.1**Удалить ветку ```CheckLists``` из ветки ```main```
+
+  ```$ git branch -D CheckLists```
