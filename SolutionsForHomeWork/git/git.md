@@ -390,12 +390,16 @@
 **7.** В ветке ```CheckLists``` набросать структуру чек листа:
 
   + ```$ git checkout CheckLists```
-  + ```$ vim CheckLists.txt```
+  + ```$ git merge main``` ➠ синхронизировать с ```main```
+  + ```$ vim CheckLists.md```
+  + нажать **i** (режим редактирования)
+  + написать образец CheckList
+  + Esc -> **:wq**
 
 **8.** Запушить структуру на внешний репозиторий:
 
-  + ```$ git add CheckLists.txt```
-  + ```$ git commit -m "Added one file CheckLists.txt```
+  + ```$ git add CheckLists.md```
+  + ```$ git commit -m "Added one file CheckLists.md```
   + ```$ git push origin CheckLists```
 
 **9.** На внешнем репозитории сделать Pull Request ветки CheckLists в main:
