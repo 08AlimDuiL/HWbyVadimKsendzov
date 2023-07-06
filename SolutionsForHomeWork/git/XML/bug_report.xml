@@ -1,1 +1,5 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<bugs>
+	<bag1>какой-то баг №1</bag1>
+	<bag2>какой-то баг №2</bag2>
+</bugs>
