@@ -4,6 +4,8 @@
 
 [Станьте гуру в Git](https://www.atlassian.com/ru/git/tutorials)
 
+[Шпаргалка по командам](https://www.yourtodo.ru/posts/13/)
+
 *Предусловия:*
 
   * для Windows должен быть установлен - GitBash:
@@ -340,30 +342,61 @@
 
  ## **HW_2**
 
-**1.** На локальном репозитории сделать ветки для:
-
-  - Postman;
-  - Jmeter;
-  - CheckLists;
-  - Bag Reports;
-  - SQL;
-  - Charles;
-  - Mobile testing;
+**1.** На локальном репозитории сделать ветки для Postman, Jmeter, CheckLists, Bag Reports, SQL, Charles, Mobile testing :
+  + В ветке ```main``` набрать ```$  git branch```. 
+  + 
+    - Postman ➠  ```$ git branch Postman```
+    - Jmeter ➠ ```$ git branch Jmeter```
+    - CheckLists ➠ ```$ git branch CheckLists```
+    - Bag Reports ➠ ```$ git branch Bug_Reports```
+    - SQL ➠ ```$ git branch SQL```
+    - Charles ➠ ```$ git branch Charles```
+    - Mobile testing ➠ ```$ git branch Mobile_testing```
+  + ```$  git branch``` ➠ проверка наличия всех созданных веток.
   
 **2.** Запушить все ветки на внешний репозиторий:
 
-**3.** В ветке Bag Reports сделать текстовый документ со структурой баг репорта;
+```git push origin --all```
 
-**4.** Запушить структуру багрепорта на внешний репозиторий;
+**3.** В ветке Bag Reports сделать текстовый документ со структурой баг репорта:
 
-**5.** Вмержить ветку Bag Reports в Main;
+  + ```$ git checkout Bug_Reports```
+  + ```$ vim Bug_Report.txt```
 
-**6.** Запушить main на внешний репозиторий;
+**4.** Запушить структуру багрепорта на внешний репозиторий:
 
-**7.** В ветке CheckLists набросать структуру чек листа;
+  + ```$ git add Bug_Report.txt```
+  + ```$ git commit -m "Added one file Bug_Report.txt```
+  + ```$ git push origin Bug_Report```
 
-**8.** Запушить структуру на внешний репозиторий;
+**5.** Вмержить ветку ```Bag_Reports``` в ```main```:
 
-**9.** На внешнем репозитории сделать Pull Request ветки CheckLists в main;
+  + ```$ git checkout main```
+  + ```$ git merge Bug_Reports```
 
-**10.** Синхронизировать Внешнюю и Локальную ветки Main.
+**6.** Запушить main на внешний репозиторий:
+
+```$ git push```
+
+**7.** В ветке ```CheckLists``` набросать структуру чек листа:
+
+  + ```$ git checkout CheckLists```
+  + ```$ vim CheckLists.txt```
+
+**8.** Запушить структуру на внешний репозиторий:
+
+  + ```$ git add CheckLists.txt```
+  + ```$ git commit -m "Added one file CheckLists.txt```
+  + ```$ git push origin CheckLists```
+
+**9.** На внешнем репозитории сделать Pull Request ветки CheckLists в main:
+
+  + ```Compare & pull request```
+  + ```Create pull request```
+  + ```Merge pull request```
+  + ```Confirm merge```
+
+**10.** Синхронизировать Внешнюю и Локальную ветки Main:
+
+  + ```$ git checkout main```
+  + ```$ git pull```
