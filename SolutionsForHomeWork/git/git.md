@@ -372,7 +372,7 @@
 
   + ```$ git add Bug_Report.md```
   + ```$ git commit -m "Added one file Bug_Report.md```
-  + ```$ git push origin Bug_Report```
+  + ```$ git push origin Bug_Reports```
 
 **5.** Вмержить ветку ```Bag_Reports``` в ```main```:
 
