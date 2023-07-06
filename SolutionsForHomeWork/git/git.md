@@ -402,12 +402,13 @@
   + ```$ git commit -m "Added one file CheckLists.md```
   + ```$ git push origin CheckLists```
 
-**9.** На внешнем репозитории сделать Pull Request ветки CheckLists в main:
+**9.** На внешнем репозитории сделать ```Pull Request``` ветки ```CheckLists``` в ```main```:
 
   + ```Compare & pull request```
   + ```Create pull request```
   + ```Squash and merge pull request```
   + ```Confirm merge```
+  + ```Delete branch```
 
 **10.** Синхронизировать Внешнюю и Локальную ветки ```main```:
 
