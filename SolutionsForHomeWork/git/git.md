@@ -406,7 +406,7 @@
 
   + ```Compare & pull request```
   + ```Create pull request```
-  + ```Merge pull request```
+  + ```Squash and merge pull request```
   + ```Confirm merge```
 
 **10.** Синхронизировать Внешнюю и Локальную ветки ```main```:
