@@ -359,15 +359,20 @@
 ```git push origin --all```
 
 **3.** В ветке Bag Reports сделать текстовый документ со структурой баг репорта:
-
+  + 
+  + на ветке ```main``` ➠  ```$ git pull```
   + ```$ git checkout Bug_Reports```
-  + ```$ vim Bug_Report.txt```
+  + ```$ git merge main``` ➠ синхронизировать с ```main```
+  + ```$ vim Bug_Report.md```
+  + нажать **i** (режим редактирования)
+  + написать образец баг репорта
+  + Esc -> **:wq**
 
 **4.** Запушить структуру багрепорта на внешний репозиторий:
 
-  + ```$ git add Bug_Report.txt```
-  + ```$ git commit -m "Added one file Bug_Report.txt```
-  + ```$ git push origin Bug_Report```
+  + ```$ git add Bug_Report.md```
+  + ```$ git commit -m "Added one file Bug_Report.md```
+  + ```$ git push origin Bug_Reports```
 
 **5.** Вмержить ветку ```Bag_Reports``` в ```main```:
 
@@ -396,7 +401,7 @@
   + ```Merge pull request```
   + ```Confirm merge```
 
-**10.** Синхронизировать Внешнюю и Локальную ветки Main:
+**10.** Синхронизировать Внешнюю и Локальную ветки ```main```:
 
   + ```$ git checkout main```
   + ```$ git pull```
