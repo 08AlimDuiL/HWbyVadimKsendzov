@@ -69,8 +69,7 @@
 
   + ```$ vim new.json```
   + нажать **i** (режим редактирования)
-  + 
-    
+  + напечатать:   
 ```json
   {
     "name": "Liudmila",
@@ -79,7 +78,7 @@
     "mySalary": "NDA"
   }
 ```
-  + Esc -> **:wq**
+  + Esc -> **:wq** -> Enter
 
  **8.** Отправить изменения на внешний репозиторий:
 
@@ -99,8 +98,7 @@
 
   + ```vim preferences.json```
   +  нажать **i** (режим редактирования)
-  + 
-    
+  + напечатать:  
 ```json
   {
     "favorite movie": "Three nuts for cinderella",
@@ -111,12 +109,12 @@
   }
 ```
 
-  + Esc -> **:wq**
+  + Esc -> **:wq** -> Enter
 
 **11.** Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON:
 
   + ```$ cat >> skills.json```
-  +
+  + напечатать: 
 ```json
 {
         "hardSkills":   [
@@ -165,7 +163,7 @@
   + в своей ветке найти файл bug_report.json
   + нажать на него
   + нажать на *IconButton* карандаш
-  +  
+  +  напечатать: 
 ```json
   {
 	"bag1": "какой-то баг №1",
@@ -240,8 +238,7 @@
 
   + ```$ vim new.xml```
   + нажать **i** (режим редактирования)
-  + 
-    
+  + напечатать: 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
     <data>
@@ -251,7 +248,7 @@
         <mySalary>NDA</mySalary>
     </data>
 ```
-  + Esc -> **:wq**
+  + Esc -> **:wq** -> Enter
    
  **8.** Отправить изменения на внешний репозиторий:
    + ```$ git status```
@@ -269,8 +266,7 @@
 
   + ```$ preferences.xml```
   + нажать **i** (режим редактирования)
-  + 
-    
+  + напечатать: 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
     <favorite>
@@ -280,18 +276,18 @@
         <favorite_country=you would like to visit>Mongolia</favorite_country>
     </favorite>
 ```
-  + Esc -> **:wq**
+  + Esc -> **:wq** -> Enter
   
  **11.** Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML:
 
   + ```vim skills.xml```
   + нажать **i** (режим редактирования)
-  + 
+  + напечатать: 
 ```xml
    <?xml version="1.0" encoding="UTF-8"?>
     <hardSkills>SQL, Terminal Linux,Git, API, Dev Tools,ADB,Charle, Fiddler,Android Studio,Docker, JS, Jmeter,Software Testing, Markdown</hardSkills>
 ```
-+ Esc -> **:wq**
++ Esc -> **:wq** -> Enter
  
  **12.** Сделать коммит в одну строку:
 
@@ -365,8 +361,8 @@
   + ```$ git merge main``` ➠ синхронизировать с ```main```
   + ```$ vim Bug_Report.md```
   + нажать **i** (режим редактирования)
-  + написать образец баг репорта
-  + Esc -> **:wq**
+  + напечатать образец баг репорта
+  + Esc -> **:wq** -> Enter
 
 **4.** Запушить структуру багрепорта на внешний репозиторий:
 
@@ -393,8 +389,8 @@
   + ```$ git merge main``` ➠ синхронизировать с ```main```
   + ```$ vim CheckLists.md```
   + нажать **i** (режим редактирования)
-  + написать образец CheckList
-  + Esc -> **:wq**
+  + напечатать образец CheckList
+  + Esc -> **:wq** -> Enter
 
 **8.** Запушить структуру на внешний репозиторий:
 
