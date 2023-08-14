@@ -30,7 +30,6 @@
 + [digitalcitizen.life](https://www.digitalcitizen.life/command-prompt-how-use-basic-commands/)
 + [webref.ru](https://webref.ru/)
 
-
 ---------------------------------------------------------------------------------------------------------
 
  *ДЗ - домашнее задание;
