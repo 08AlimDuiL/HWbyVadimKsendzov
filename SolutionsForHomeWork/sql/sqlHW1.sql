@@ -6,7 +6,7 @@ create table employees
 	primary key (id_serial)
 );
 
--- Наполнить таблицу employee 70 строками
+-- Наполнить таблицу employees 70 строками
 insert into employees
 (
   id_serial, employee_name
